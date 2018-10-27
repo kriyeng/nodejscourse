@@ -83,7 +83,7 @@ var gatherAllRequestData = function(req){
     var query = parsed_url.query;
 
     // Get the method
-    var method = req.method.toLocaleUpperCase();
+    var method = req.method.toUpperCase();
 
     // Get the headers
     var headers = req.headers;
